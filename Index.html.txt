@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#1e90ff">
+    <title>Siddiqui Travels</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <header>
+        <h1>Siddiqui Travels</h1>
+        <p>Your gateway to exploring Pakistan from Karachi</p>
+    </header>
+
+    <nav>
+        <a href="#intercity-travel">Intercity Travel</a>
+        <a href="#tours">Tours</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="intercity-travel">
+            <h2>Intercity Travel</h2>
+            <div class="card">
+                <h3>Select Your Mode of Transport</h3>
+                <p>Choose between bus or car for your intercity travels. Book your tickets online and enjoy a comfortable journey.</p>
+                <a href="https://your-booking-link.com" class="cta-button">Book Your Ticket</a>
+            </div>
+        </section>
+        
+        <section id="tours">
+            <h2>Private & Group Tours</h2>
+            <div class="card">
+                <h3>Explore Pakistan with Us</h3>
+                <p>Join our private or group tours to explore the beauty of Pakistan. Select your preferred package and enjoy a memorable trip.</p>
+                <a href="https://your-tour-link.com" class="cta-button">View Tour Packages</a>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="card">
+                <h3>Get in Touch</h3>
+                <p>Have questions or need help? Contact us directly on WhatsApp.</p>
+                <a href="https://wa.me/923162816699" class="cta-button">Chat on WhatsApp</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Siddiqui Travels. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
